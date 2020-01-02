@@ -1,0 +1,485 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #55ADA6;
+}
+
+body {
+  font: 400 15px Microsoft JhengHei, sans-serif;
+  font-weight: bold;
+  line-height: 1.8;
+  color: #818181;
+  outline: none;
+}
+
+@media screen and (min-width: 1330px) {
+  .body_div {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1329px) {
+  .body_div {
+    width: 100%;
+  }
+}
+
+.circle--square{
+  border-radius:50%;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  /*color: #303030;*/
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #55ADA6;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+category {
+  font-size: 16px;
+  line-height: 1.375em;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+input[type=money] {
+  width: 6.66%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  background-image: url('../img/index_money_icon.png');
+  background-position: 7.5% 50%;
+  background-repeat: no-repeat;
+  padding: 1px 10px 1px 25px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.viewcase_left_div {
+  width: 5%;
+  background-color: #55ADA6;
+  font-size: 60px;
+  line-height: 200px;
+  margin-top: 100px;
+  min-height: 80%;
+  color: white;
+  position: fixed;
+  left: 0px;
+}
+table {
+  table-layout: fixed;
+  border-collapse:collapse;
+  width: 100%;
+}
+.sameline {
+  float: left;
+}
+.warn {
+  font-size: 16px;
+  color: #55ADA6;
+}
+.wait {
+  background-color: gray;
+  color: white;
+  height: 100%;
+}
+.ing {
+  background-color: yellow;
+  color: black;
+  height: 100%;
+}
+.checked {
+  background-color: yellow;
+  color: black;
+  height: 100%;
+}
+.finish {
+  background-color: green;
+  color: white;
+  height: 100%;
+}
+.select_type {
+  width: 7.5%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  padding: 1.5px 10px 1.5px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.p_text {
+  width: auto;
+  height: 75px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.h1_text {
+  font-size: 20px;
+  width: auto;
+  height: 20px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.sameline {
+  float: left;
+}
+.address {
+  color: #55ADA6;
+}
+.jumbotron {
+  background-color: #f4511e;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+}
+.carousel-indicators li {
+  border-color: #f4511e;
+}
+.carousel-indicators li.active {
+  background-color: #f4511e;
+}
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+.item span {
+  font-style: normal;
+}
+.panel {
+  border: 1px solid #55ADA6;
+  border-radius:0 !important;
+  transition: box-shadow 0.5s;
+}
+.panel:hover {
+  box-shadow: 5px 0px 40px #55ADA6;
+}
+.panel-footer .btn:hover {
+  border: 1px solid #55ADA6;
+  background-color: #fff !important;
+  color: #55ADA6;
+}
+.panel-heading {
+  font-family:微軟正黑體;
+  color: #fff !important;
+  background-color: #55ADA6 !important; //框顏色
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.panel-footer {
+  background-color: white !important;
+}
+.panel-footer h3 {
+  font-size: 32px;
+}
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #55ADA6;
+  color: #fff;
+  font-family:微軟正黑體;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #55ADA6;/*rgb(200,225,200);*/
+  z-index: 9999;
+  border: 0;
+  font-size: 12pt !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  font-size:12pt;
+
+  font-family:微軟正黑體;
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color:#55ADA6!important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+.footer_class {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #55ADA6;
+}
+.slideanim, .slideanim1, .slideanim2 {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
+.fost{
+  font-family:微軟正黑體;
+}
+.themeBGColor {
+  background-color: #55ADA6;
+  border-color: #55ADA6;
+}
+.imgCSS {
+  border: 0;
+}
+.loginMargin {
+  margin-top: 5%;
+}
+.searchBtn {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.searchDroplistMenu {
+  min-width: 0;
+  font-size: 0.5rem;
+}
+.indexTypeButton {
+  margin-right: 0.5%;
+}
+.indexListMyCase {
+  background-color: #62C6BE;
+  color: #ffffff;
+}
+.indexGridCard {
+  margin-bottom: 3%;
+}
+
+@media (min-width: 992px)
+.modal-lg {
+  max-width: 80%;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  line-height: unset;
+}
+
+.addCaseBtn {
+  position: fixed;
+  right: 3.5em;
+  bottom: 2em;
+  z-index: 50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.emergencyBtn {
+  position: fixed;
+  right: 3em;
+  bottom: 6em;
+  z-index: 50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.addCaseImg {
+  width: 3em;
+}
+
+.emergencyImg {
+  width: 4em;
+}
+
+.nextBtnDiv {
+  margin-right: -2em;
+  margin-left: -2em;
+  width: unset;
+}
+
+.nextBtn {
+  color: #62C6BE;
+  font-size: 3em;
+}
+.citySelect {
+  padding-right: unset;
+}
+.roadSelect {
+  padding: unset;
+}
+.getTimeSelect {
+  width: 4em;
+  padding: 0;
+  margin: 0;
+}
+.marginUnset {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+}
+.giveMeCenter {
+  margin: auto auto;;
+}
+
+.zindex9999 {
+  z-index: 9999;
+}
+
+.smallFont {
+  font-size: 0.5em;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.cardCustFooter {
+  padding: 0.5rem 1.25rem;
+}
+
+.btn-primary {
+  background-color: #55ADA6;
+  border-color: #55ADA6;
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #338B84;
+  border-color: #449C95;
+}
+
+.chooseToolMan {
+  padding: 0.175rem 0.175rem;
+}
+
+.youCantSee {
+  display: none;
+}
+
+.popover-header, .sumbitLine {
+  background-color: #00c300;
+  color: #FFFFFF;
+  font-size: 16px;
+  max-width: unset;
+}
+
+.popover {
+  z-index: 9999;
+  font-family: "Segoe UI","Microsoft JhengHei",sans-serif;
+}
+
+.userForm {
+  padding: 2em;
+}
+
+.sameLineRight {
+  float: right;
+}
+
+.noFloat {
+  clear: both;
+}
+
+.iconHover {
+  margin-right: 5px;
+}
+
+.iconHover:hover {
+  color: #dd4455;
+  cursor: pointer;
+}
+
+.sumbitEmergency {
+    background-color: #DD5555;
+    color: #FFFFFF;
+    font-size: 16px;
+    max-width: unset;
+}

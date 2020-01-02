@@ -1,0 +1,52 @@
+.waiting {
+  background-color: #888889;
+  color: #ffffff;
+}
+.keeping {
+  background-color: #55ADA6;
+  color: #FFFFFF;
+}
+.checking {
+  background-color: #F39D5C;
+  color: #FFFFFF;
+}
+.rating {
+  background-color: #84452C;
+  color: #FFFFFF;
+}
+.finished {
+  background-color: #13AD67;
+  color: #ffffff;
+}
+.expired {
+  background-color: #3E3A39;
+  color: #FFFFFF;
+}
+.fighting {
+  background-color: #C00008;
+  color: #FFFFFF;
+}
+.fix {
+  background-color: #CBE5D0;
+  color: #555555;
+}
+.normal {
+  background-color: #D5CBE4;
+  color: #555555;
+}
+.sendout {
+  background-color: #87C4B8;
+  color: #555555;
+}
+.bug {
+  background-color: #FFF5B9;
+  color: #555555;
+}
+.transfer {
+  background-color: #CDE9F1;
+  color: #555555;
+}
+.homework {
+  background-color: #F9D8E7;
+  color: #555555;
+}

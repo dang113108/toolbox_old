@@ -1,0 +1,129 @@
+.btn01{
+  border:none;
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  background-color:#48a397;
+  outline:none;
+  color:white;
+  transition-duration: 0.1s;
+}
+.btn01:hover{
+  background-color:red;
+}
+h1{
+  font-size:50px;
+  font-family:微軟正黑體;
+  font-weight:bold;
+  color:#273f3c;
+  position: absolute;
+  left: 323px;
+  top: 220px;
+  z-index:5;
+}
+h2{
+  font-family:微軟正黑體;
+  font-size:25px;
+  color:#48a397;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  font-family:微軟正黑體;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+tr:hover {
+  background-color:#f5f5f5;
+  color:#303030;
+}
+.gridText {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-height: 1.3;
+}
+.gridDetail {
+  width: auto;
+  height: 75px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.t1{
+  font-size:15pt;
+  color:#48a397;
+}
+.btn01{
+  border:none;
+}
+.ellipsis {
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.img1{
+  position: absolute;
+  left: 200px;
+  top: 350px;
+  z-index:4;
+  width:25%;
+  height:25%;
+}
+.jumbotron {
+  background-color: #f4511e;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+}
+.carousel-indicators li {
+  border-color: #f4511e;
+}
+.carousel-indicators li.active {
+  background-color: #f4511e;
+}
+.en1{
+  font-family:微軟正黑體;
+  color: #48a397;
+  font-weight:bold;
+}
+@media screen and (min-width: 574px) {
+  .gridCard {
+    max-width: 30%;
+  }
+}
+.typeImg {
+  width: 2em;
+}
+.slideImg {
+  width: 1.5em;
+}
+.gridMyCase {
+  color: #48a397;
+}

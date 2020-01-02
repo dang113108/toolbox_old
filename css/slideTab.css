@@ -1,0 +1,279 @@
+#mwt_mwt_slider_scroll
+{
+	top: 0;
+	left:-375px;
+	width:375px;
+	position:fixed;
+	z-index:9999;
+}
+
+#mwt_slider_content{
+	background:#009494;
+	text-align:center;
+	padding:20px;
+	z-index: 9999;
+	width:375px;
+}
+
+#mwt_fb_tab {
+	position:absolute;
+	top:70px;
+	right:-24px;
+	width:24px;
+	background:#009494;
+	color:#ffffff;
+	font-family:Arial, Microsoft JhengHei, sans-serif;
+	text-align:center;
+	padding:9px 0;
+	font-size: 3em;
+	border-radius:0px 10px 10px 0px;
+}
+#mwt_fb_tab span {
+	display:block;
+	height:12px;
+	padding:1px 0;
+	line-height:12px;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+.slideHeader {
+	background-color: #FFFFFF;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.slideBody {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 1em;
+	min-height: calc(100% - 4em);
+	max-height: calc(100% - 4em);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.slideCardBody {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-color: #55ADA6;
+	margin-bottom: 5px;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+
+}
+
+::-webkit-scrollbar-track {
+	background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #555555;
+	border-radius: 15px;
+}
+
+::-webkit-scrollbar-button {
+	display: none;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: #FFFFFF;
+}
+
+#slideMessageFirebase {
+	display: none;
+}
+
+.slideMessageFirebaseBottom {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.slideMessageHeader {
+	line-height: 20px;
+}
+
+.slideMessageTitle {
+	float: center;
+	font-size: 18px;
+}
+
+.slideMessageFloot {
+	margin-top: 10px;
+}
+
+.slideMessageInput {
+	width: 75%;
+}
+
+.slideMessageSubmit {
+	width: 20%;
+}
+
+.slideMessageBody {
+	position:relative;
+	height: inherit;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 500px;
+}
+
+.slideMessageFloot {
+	margin-top: 10px;
+	margin-bottom: unset !important;
+}
+
+.myMessageText {
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #55ADA6;
+	background-color: #55ADA6;
+	color: #FFFFFF;
+	padding-right: 5px;
+}
+
+.myMessageName {
+	font-size: 8px;
+	line-height: 1;
+	margin-bottom: 2px;
+}
+
+.yourMessageText {
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+	background-color: #555555;
+	color: #FFFFFF;
+	padding-left: 5px;
+}
+
+.yourMessageName {
+	font-size: 8px;
+	line-height: 1;
+	margin-bottom: 2px;
+}
+
+.MessageDiv {
+	margin-top: 5px;
+	padding: 5px 5px;
+}
+
+.messageNotifyDiv {
+	display: none;
+}
+
+.messageNotifyCount {
+	height: 18px !important;
+	width: 18px;
+	border-radius: 18px;
+	text-align: center;
+	color: #fff;
+	background: red;
+	position: relative;
+	left: 2px;
+	line-height: 18px !important;
+}
+
+.messageNotifyBtn {
+	display: none;
+	height:8px;
+	width:8px;
+	border-radius:8px;
+	text-align:center;
+	font-size:0.1em;
+	color:#fff;
+	background:red;
+	position: relative;
+	top: -8px;
+}
+
+.messageNotifyChat {
+	height:8px;
+	width:8px;
+	border-radius:8px;
+	display:none;
+	text-align:center;
+	font-size:0.1em;
+	color:#fff;
+	background:red;
+	position: relative;
+	top: -70px;
+	right: -275px;
+}
+
+.messagePinBtn {
+	text-align:center;
+	width: 1em;
+	border-radius: 0.5em;
+	line-height: 1.5em;
+	font-size:1em;
+	color:#FFFFFF;
+	position: relative;
+	float: left;
+	left: 5px;
+	top: 3px;
+	cursor: pointer;
+}
+
+.messageTitle {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	line-height: 1.3;
+	padding-left: 0;
+}
+
+.slideRatyTextDiv {
+	position: relative;
+	top: -125px;
+}
+
+.slideRatyLeftSpan {
+	font-size: 2em;
+}
+
+.slideRatyCategory {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.slideRatyList {
+	position:relative;
+	height: inherit;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.slideRatyImg {
+	width: 2.5em;
+	cursor: pointer;
+}
+
+.messageImg {
+	max-width: 300px;
+	max-height: 168px;
+	cursor: pointer;
+}
+
+.hideFileUpload {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+.unsetLabel {
+	margin-bottom: 0;
+}

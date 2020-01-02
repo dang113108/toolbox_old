@@ -1,0 +1,241 @@
+textarea {
+  resize : none;
+  width: 100%;
+  height: 10em;
+  margin-top: 1em;
+  border-radius: 1em;
+  border: 2px solid #48a397;
+  font-size: 12px;
+  padding: 0.5em;
+  outline: none;
+  color: #555555;
+}
+
+.qnaDiv {
+  display: none;
+  margin-top: 10px;
+  padding: 15px 15px;
+  border-style: solid;
+  border-color: #48a397;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.qnaTitle {
+    background-color: #48a397;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.caseDetailCidBG {
+    background-image: url("../img/caseDetailCid.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px;
+    margin-right: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.caseDetailCid {
+    z-index:2;
+    font-family:Arial;
+    font-weight:bold;
+    color:white;
+    font-size:18pt;
+}
+
+.caseDetailType {
+    position:absolute;
+    left:80px;
+    top:100px;
+    z-index:2;
+}
+
+.caseDetailBasicText {
+    font-family:微軟正黑體;
+    color: #48a397;
+    font-size:12pt;
+    font-weight:bold;
+    margin-right: 1em;
+}
+
+.caseQnAText {
+    font-family:微軟正黑體;
+    font-size:8pt;
+    font-weight:bold;
+    width: auto;
+    height: 2em;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.caseQnADate {
+    font-family:微軟正黑體;
+    font-size:6pt;
+    font-weight:bold;
+    float: right;
+}
+
+.caseDetailTableText {
+    border-style:solid none dashed none;
+    border-width:3px;
+    border-color:#48a397;
+}
+
+.caseDetailButton{
+    border:none;
+    width: 5em;
+    height: 28px;
+    outline:none;
+    border-radius: 100px;
+    background-color:#48a397;
+    color:white;
+    transition-duration: 0.1s;
+    margin-right: 2%;
+    cursor: pointer;
+
+}
+
+.caseDetailButton:hover {
+    background-color:rgba(72, 163, 151, 0.7);
+}
+
+.caseDetailButton:disabled {
+    background-color: #bbbbbb;
+}
+
+.caseDetailButton:focus{
+    outline:none;
+}
+
+.caseDetailIcon {
+    color: #48a397;
+    font-size: 1.5em;
+}
+
+.caseDetailTitle > h2 {
+    line-height: 26px;
+    margin: 17px 0px;
+    margin-left: 5px;
+}
+
+.caseDetailButtonText {
+    margin-left: 0.2em;
+    color: #FFFFFF;
+}
+
+.row {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.modalDiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caseDetailBottomTable {
+    margin-top: 3em;
+}
+
+.caseDetailButtonDiv {
+    margin-top: 2em;
+}
+
+.qnaTable tr {
+    border-style:solid;
+    border-width:2px;
+    border-color:#48a397;
+}
+
+.qnaTable tr > td {
+    border-style:solid;
+    border-width:2px;
+    border-color:#48a397;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.qnaAnswered {
+    font-size:8pt;
+    margin-right: 0.5em;
+    color: #02df82;
+}
+
+.qnaNotAnswered {
+    font-size:8pt;
+    margin-right: 0.5em;
+    color: #ff5151;
+}
+
+.caseQnATd {
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.caseQnATdOpen {
+    text-overflow: unset;
+    white-space: unset;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+}
+
+.caseQnaTextAll {
+    height: unset;
+    -webkit-line-clamp: unset;
+}
+
+td > hr {
+ margin-top: 0.2em;
+ margin-bottom: 0.2em;
+}
+
+@media screen and (max-width: 1329px) {
+    .col {
+        flex-basis: unset;
+    }
+
+    .qnaBigDiv {
+        margin-top: 1.5em;
+    }
+
+    .caseDetailButtonText {
+        display: none;
+    }
+
+    .caseDetailButton {
+        width: 3em;
+    }
+}
+
+.accordion {
+    margin-top: 1em;
+}
+
+.cardMessage {
+    border-radius: 1rem;
+}
+
+.cardMessageHeader {
+    padding: 0;
+    background-color: #48a397;
+}
+
+.cardBtn {
+    color: #FFFFFF;
+}
+
+.questionHeader {
+    border: solid;
+    border-color: #48a397;
+    border-width: 1px;
+    background-color: #FFFFFF;
+}
+
+.questionHeaderText {
+    color: #48a397;
+}

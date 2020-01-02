@@ -1,0 +1,17 @@
+.divBg50 {
+	background-color: rgba(50, 50, 50, 0.8);
+	border-radius: 1em;
+	padding: 0.5em;
+	margin: 1%;
+	width: 48%;
+	float: left;
+}
+
+.divBg100 {
+	background-color: rgba(50, 50, 50, 0.8);
+	border-radius: 1em;
+	padding: 0.5em;
+	margin: 0.5em;
+	width: 99%;
+	float: left;
+}
